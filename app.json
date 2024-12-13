@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "ProyectoHW",
+    "slug": "ProyectoHW",
+    "newArchEnabled": true,
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/img/HW-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#002d5b"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/img/adaptive-icon.png",
+        "backgroundColor": "#002d5b"
+      }
+    },
+    "web": {
+      "favicon": "./assets/img/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "$(PRODUCT_NAME) quiere acceder a tu cámara."
+        }
+      ],
+      "expo-font",
+      "expo-sqlite"
+    ]
+  }
+}
